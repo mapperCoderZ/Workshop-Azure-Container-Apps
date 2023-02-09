@@ -2,9 +2,10 @@ name: debug
 on:
   repository_dispatch:
   
+
+jobs:
   deploy:
     runs-on: ubuntu-latest
-    needs: build
     
     steps:
       - name: Azure Login
