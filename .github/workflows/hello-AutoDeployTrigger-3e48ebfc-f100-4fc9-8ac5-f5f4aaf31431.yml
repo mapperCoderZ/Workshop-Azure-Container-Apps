@@ -36,8 +36,8 @@ jobs:
         with:
           push: true
           tags: acrlab6gilles.azurecr.io/hello:${{ github.sha }}
-          file: ./Lab_6/Dockerfile
-          context: ./Lab_6/
+          file: ./Lab_6/App/Dockerfile
+          context: ./Lab_6/App
 
 
   deploy:
